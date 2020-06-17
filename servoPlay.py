@@ -21,7 +21,7 @@ kit = ServoKit(channels=16, i2c=i2c_bus0)
 # kit[0] is the bottom servo
 # kit[1] is the top servo
 print("Done initializing")
-sweep = range(0,180)
+sweep = range(0,270)
 for degree in sweep :
     kit.servo[0].angle=degree
     # kit.servo[1].angle=degree
